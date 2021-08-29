@@ -1,6 +1,6 @@
 :root{
     --fontColour:#FFFFFF;
-    --headerFooter:#b3aeee;
+    --headerFooter:#0f1030;
     --containerColour:#524e7d;
     --fontFamily:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -15,8 +15,10 @@ margin: 0;
 padding: 0;
 font-family: Arial, Helvetica, sans-serif;
 color: var(--fontColour);
+background: var(--containerColour)
 
 }
+/* Header Section*/
 #logo{
     width: 35px;
     height: 35px;
@@ -49,7 +51,9 @@ header .container{
     display: flex;
     justify-content: space-between;
 }
+/* End of Header section*/
 
+/* Main Section*/
 .intro-container
 {margin-top: 70px;
     width:100%;
@@ -111,6 +115,7 @@ align-self: center;
     font-size: 30px;
     letter-spacing: 1px;
 }
+/*Image container */
 
 .work-container{
     display: flex;
@@ -130,16 +135,20 @@ align-self: center;
     width:100%;
 
 }
-#image-class1,#image-class2,#image-class3
+#image-class1,#image-class2,#image-class3,#image-class4
 {margin : 20px 20px;
     width: 300px;
     height: 300px;
+    border-style: solid;
     border-radius: 15px;
+    border-width: 1px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
     
 }
 #image-class1:hover{
     
-    transform: rotate(25deg);
+    transform: rotate(8deg);
     cursor: pointer;
 }
 #image-class2:hover{
@@ -151,17 +160,22 @@ align-self: center;
     transform: scale(1.5);
     cursor: pointer;
 }
+#image-class4:hover{
+    transition: all 2s linear;
+    transform:rotateY(180deg);
+    cursor:pointer;
+}
+
+/* Main end*/
+
+/*Footer*/
 footer{
     margin-top:10px;
     width: 100%;
     background-color: var(--headerFooter);
     padding:10px auto;
-    height: 50px;
-    
-
+    height: 50px; 
 }
-
- 
 footer{
     background-color: var(--headerFooter);
     
@@ -171,12 +185,53 @@ footer h3{
     font-size: 20px;
     text-align: center;
     font-family: var(--fontFamily);
-
-
 }
 footer span{
     font-style: italic;
     color: black;
 
+}
 
+@media screen and (max-width: 992px) {
+
+header .container{
+    width: 75%;
+}
+.container .right-section {
+width: 40%;
+flex : 0 0 33%;
+
+
+}
+.container .left-section {
+    width: 60%;
+    flex : 0 0 33%;
+}
+
+
+ .work-container .image-container{
+
+    width:50% ;
+    flex : 0 0 50%;
+}
+
+.footer{
+    width: 75%;
+}
+}
+
+
+@media screen and (max-width: 768px){
+  header .container{
+      
+    flex-direction: column;
+    width: 40%;
+  }
+  .container{ 
+      flex-direction: column;
+      width: 40%;
+  }
+  .footer{
+      width:40%
+  }
 }
