@@ -19,8 +19,8 @@ Images and Css  are placed inside assets Folder .
   
   Intro-container  have another container class
   which holds personal information  left on left-section container ;
-  links to contact me and a form also included  to ask question in rigt-section container.
-  Hover elements added to make form attractive.S
+  links to contact me and a form also included  to ask question in right-section container.
+  Hover elements added to make form attractive.
 
  Work container is used to hold projects done.Currently updated with some images with transform transition effects.
  Needs Updation in future.
