@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header>
+    <header id="header" >
         <div class="container">
-           <!-- <a id ="#" href=>LOGO</a>-->
+           
            <img id="logo" src="assets/images/image3.jpg" alt ="KBlogo">
             <nav>
-                <a href="#">Home</a>
-                <a href="#">About Me</a>
-                <a href="#">My Works</a>
-                <a href="#">Contact Me</a>
+                <a href="#header">Home</a>
+                <a href="#intro-container">About Me</a>
+                <a href="#work-container">My Works</a>
+                <a href="#intro-container">Contact Me</a>
             </nav>
         </div>
     </header>
 
 <main>
-<div class="intro-container">
+<div id="intro-container">
     <div class="container" >
         <div class="left-section">
           <img id="myimage" src="./assets/images/imageme.jpg" alt="Kuleenaimage">
@@ -38,17 +38,37 @@
 
         
           
-          <a href="https://github.com/"> <img  class ="logo-image" src="./assets/images/download.png" alt="GitHubIcon"></a>
+          <a  href="https://github.com/"> <img  class ="logo-image" src="./assets/images/download.png" alt="GitHubIcon"></a>
 
           
-          <a href="www.outlook.com"><img  class ="logo-image" src="./assets/images/gmail.png" alt="Gmailicon"></a>
+          <a href="mailto:annachandy123@gmail.com"><img  class ="logo-image" src="./assets/images/gmail.png" alt="Gmailicon"></a>
+          <h1>Got Questions:</h1><br>
+          <forms id=form1>
+                <div class="name">
+                 <label>Name:</label>
+                 <input type="text" id="name1"/>
+                </div>
+                <div class="email">
+                 <label>Email:</label>
+                 <input type="email" id="email1"/>
+                </div>
+                <div class="question">
+                     <textarea name="question" rows= 5 cols =20 Placeholder="Type your questions here"></textarea>
+              </div>
+                <div class="submit">
+                      <button id="submit1">Submit</button>
+                 </div>
+         </forms>
           
         </div>
     </div>
 </div>
-<div class="work-container">
+<h2 id="myworks"> My Works</h2>
+   
+<div id="work-container">
+    
       <div class="container">
-         
+       
            <div class ="image-container">
               <img id="image-class1" src="./assets/images/image4.jpg" alt="myworkpic">
            </div>
