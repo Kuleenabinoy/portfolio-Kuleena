@@ -300,3 +300,10 @@ p {
     letter-spacing: 1px;
     font-family: var(--fontFamily);
 }
+
+h3 {
+    color: var(--fontColour);
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: var(--fontFamily);
+}
