@@ -31,3 +31,6 @@ footer is given with copyright
 GitHub address https://github.com/Kuleenabinoy/portfolioHw
 
 Deployed wesite https://kuleenabinoy.github.io/portfolio-Kuleena/
+
+
+![Screenshot](https://user-images.githubusercontent.com/86656634/136681250-3be6e0a8-1a29-44b6-a092-8559b8ff8af0.png)
