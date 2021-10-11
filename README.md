@@ -22,7 +22,7 @@ which holds personal information left on left-section container ;
 links to contact me and a form also included to ask question in right-section container.
 Hover elements added to make form attractive.
 
-Work container is used to hold projects done.By clicking the image it navigate to corresponding github repo.
+Work container is used to hold projects done.Links are given to navigate to coressponding repo and website.
 
 Media query used to make as responsive website.
 
@@ -31,6 +31,5 @@ footer is given with copyright
 GitHub address https://github.com/Kuleenabinoy/portfolioHw
 
 Deployed wesite https://kuleenabinoy.github.io/portfolio-Kuleena/
-
 
 ![Screenshot](https://user-images.githubusercontent.com/86656634/136681250-3be6e0a8-1a29-44b6-a092-8559b8ff8af0.png)
