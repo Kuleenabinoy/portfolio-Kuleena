@@ -136,7 +136,8 @@ textarea:focus {
     margin: 0;
     align-self: center;
 }
-.right-section h1 {
+.right-section h1,
+h2 {
     margin: 0;
     margin-top: 50px;
     font-size: 30px;
@@ -273,17 +274,29 @@ footer span {
     color: #ffffff;
     justify-content: space-evenly;
     cursor: pointer;
-    margin: 20px;
+    margin: 40px;
     text-decoration: none;
+    color: var(--fontColour);
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: var(--fontFamily);
 }
 #myworks {
     padding: 5px;
     margin-left: 80px;
 }
 .repo:hover {
-    color: red;
+    color: #0f1030;
+    text-decoration: underline;
 }
 
 .web:hover {
-    color: red;
+    color: #0f1030;
+    text-decoration: underline;
+}
+p {
+    color: var(--fontColour);
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: var(--fontFamily);
 }
