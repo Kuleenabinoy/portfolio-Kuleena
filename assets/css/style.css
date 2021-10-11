@@ -1,55 +1,49 @@
-
 /* variable declaration*/
-:root{
-    --fontColour:#FFFFFF;
-    --headerFooter:#0f1030;
-    --containerColour:#524e7d;
-    --fontFamily:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+:root {
+    --fontColour: #ffffff;
+    --headerFooter: #0f1030;
+    --containerColour: #524e7d;
+    --fontFamily: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-*{
-box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
-body{
-margin: 0;
-padding: 0;
-font-family: Arial, Helvetica, sans-serif;
-color: var(--fontColour);
-/*background: var(--containerColour)*/
-
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--fontColour);
+    /*background: var(--containerColour)*/
 }
 /* Header Section*/
-#logo{
+#logo {
     width: 35px;
     height: 35px;
-    
 }
-header .container{
+header .container {
     width: 100%;
     background-color: var(--headerFooter);
-    padding:20px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top:0;
-
+    top: 0;
 }
 
-header a{
+header a {
     text-decoration: none;
-     margin-right:100px ; 
+    margin-right: 100px;
     color: var(--fontColour);
     font-size: 14px;
     letter-spacing: 1px;
     font-family: var(--fontFamily);
     cursor: pointer;
-   
 }
 /* Hover properties added to links in header  */
 
-header a:hover{
+header a:hover {
     color: blue;
     text-decoration: underline;
 }
@@ -57,84 +51,80 @@ header a:hover{
 /* End of Header section*/
 
 /* Main Section*/
-main{
+main {
     margin-top: 10px;
 }
-#intro-container
-{margin-top: 50px;
-    width:100%;
+#intro-container {
+    margin-top: 50px;
+    width: 100%;
     background-color: var(--containerColour);
     display: flex;
 }
-#intro-container .container{
-    
-    display:flex;
+#intro-container .container {
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    width:100%;
+    width: 100%;
 }
 /*Left part of intro container*/
-#myimage{
-    width:300px;
-    height:300px;
+#myimage {
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     margin-top: 30px;
 }
-.left-section{
+.left-section {
     width: 600px;
     align-items: center;
 }
-.left-section h1{
-    margin:0;
+.left-section h1 {
+    margin: 0;
     margin-top: 10px;
     font-size: 40px;
     letter-spacing: 1px;
-
 }
-.leftsection h2{
-    margin:0;
+.leftsection h2 {
+    margin: 0;
     font-size: 30px;
     letter-spacing: 1px;
-
 }
-.left-section p{
-    margin:0;
-    margin-top:10px;
+.left-section p {
+    margin: 0;
+    margin-top: 10px;
     font-size: 15px;
     letter-spacing: 1px;
     line-height: 30px;
-
 }
 /* form */
-input[type=text]:focus{
+input[type="text"]:focus {
     background-color: lightblue;
-    border :3px solid blue;
+    border: 3px solid blue;
 }
-input[type=email]:focus{
+input[type="email"]:focus {
     background-color: lightblue;
-    border :3px solid blue;
+    border: 3px solid blue;
 }
-textarea:focus{
+textarea:focus {
     background-color: lightblue;
-    border :3px solid blue;
+    border: 3px solid blue;
 }
-.name ,.email , .question ,.submit
-{
-    margin-top:10px ;
+.name,
+.email,
+.question,
+.submit {
+    margin-top: 10px;
 }
-#submit1:focus{
-    background-color:blue;
+#submit1:focus {
+    background-color: blue;
     box-shadow: 10px auto gray;
 }
- /* End of form*/
-
-
+/* End of form*/
 
 /* End of left part*/
 
 /*Right part of introduction*/
 
-.logo-image{
+.logo-image {
     margin-top: 20px;
     margin-left: 10px;
     width: 50px;
@@ -142,44 +132,43 @@ textarea:focus{
     cursor: pointer;
 }
 
-.right-section{                     
-margin:0;
-align-self: center;
-
+.right-section {
+    margin: 0;
+    align-self: center;
 }
-.right-section h1{
-    margin:0;
+.right-section h1 {
+    margin: 0;
     margin-top: 50px;
     font-size: 30px;
     letter-spacing: 1px;
-}/* End of introduction part*/
+} /* End of introduction part*/
 
 /*Image container which holds images for MYWorks*/
 
-.container{
+.container {
     display: flex;
     margin-top: 5px;
     background-color: var(--containerColour);
     /*justify-content: space-evenly;*/
     align-items: center;
-
-
 }
-#myworks{
+#myworks {
     margin: 0 0px;
-    
+
     color: black;
 }
- 
-#work-container .container{
-    display:flex;
+
+#work-container .container {
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    width:100%;
-
+    width: 100%;
 }
-#image-class1,#image-class2,#image-class3,#image-class4
-{margin : 20px 20px;
+#image-class1,
+#image-class2,
+#image-class3,
+#image-class4 {
+    margin: 20px 20px;
     width: 300px;
     height: 300px;
     border-style: solid;
@@ -187,100 +176,118 @@ align-self: center;
     border-width: 1px;
     padding: 10px;
     box-shadow: 10px 10px 5px #aaaaaa;
-    
 }
 /* hover properties added to images*/
-#image-class1:hover{
-    
+#image-class1:hover {
     transform: rotate(8deg);
     cursor: pointer;
 }
-#image-class2:hover{
+#image-class2:hover {
     transition: all 2s linear;
-    transform:rotateY(360deg);
+    transform: rotateY(360deg);
     cursor: pointer;
 }
-#image-class3:hover{
+#image-class3:hover {
     transform: scale(1.5);
     cursor: pointer;
 }
-#image-class4:hover{
+#image-class4:hover {
     transition: all 2s linear;
-    transform:rotateY(180deg);
-    cursor:pointer;
+    transform: rotateY(180deg);
+    cursor: pointer;
 }
 
 /* Main end*/
 
 /*Footer*/
-footer{
-    margin-top:3px;
+footer {
+    margin-top: 3px;
     width: 100%;
     background-color: var(--headerFooter);
-    padding:10px auto;
-    height: 50px; 
+    padding: 10px auto;
+    height: 50px;
 }
-footer{
+footer {
     background-color: var(--headerFooter);
-    
 }
-footer h3{
+footer h3 {
     padding-top: 10px;
     font-size: 20px;
     text-align: center;
     font-family: var(--fontFamily);
 }
-footer span{
+footer span {
     font-style: italic;
     color: black;
-
 }
 /* media quaries added to make as responsive website*/
 
-@media screen and (max-width: 992px)
- {
+@media screen and (max-width: 992px) {
+    .container .right-section {
+        width: 40%;
+        flex: 0 0 33%;
+    }
+    .container .left-section {
+        width: 60%;
+        flex: 0 0 33%;
+    }
 
-
-.container .right-section {
-width: 40%;
-flex : 0 0 33%;
-
-
-}
-.container .left-section {
-    width: 60%;
-    flex : 0 0 33%;
-}
-
-#work-container .container{
-   
-    
-    flex : 0 0 50%;
-    flex-direction: column;
-
+    #work-container .container {
+        flex: 0 0 50%;
+        flex-direction: column;
+    }
 }
 
-}
-
-@media screen and (max-width: 768px){
-   
-  #header{
-      flex-direction: column;
-  }
-  .container{ 
-      flex-direction: column;
-      width: 40%;
-  }
-  #intro-container .container
-  {
-      margin-top:50px
-  }
-    #myimage
-    {
+@media screen and (max-width: 768px) {
+    #header {
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column;
+        width: 40%;
+    }
+    #intro-container .container {
+        margin-top: 50px;
+    }
+    #myimage {
         width: 50%;
     }
-  
-  .footer{
-      width:40%
-  }
+
+    .footer {
+        width: 40%;
+    }
+}
+.project1 {
+    margin: 10px;
+    /* display: flex; */
+    border-right: 2px solid white;
+
+    flex-direction: column;
+
+    border-radius: 15px;
+
+    padding: 10px;
+}
+.repo,
+.web {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 10px;
+    justify-content: space-evenly;
+
+    cursor: pointer;
+}
+#myworks {
+    padding: 5px;
+    margin-left: 80px;
+}
+.repo:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.web:hover {
+    background-color: cornflowerblue;
+    color: white;
 }
