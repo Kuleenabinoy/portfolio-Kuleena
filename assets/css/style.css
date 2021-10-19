@@ -164,6 +164,7 @@ h2 {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    overflow: scroll;
 }
 #image-class1,
 #image-class2,
