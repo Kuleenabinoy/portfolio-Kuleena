@@ -32,5 +32,6 @@ GitHub address https://github.com/Kuleenabinoy/portfolioHw
 
 Deployed wesite https://kuleenabinoy.github.io/portfolio-Kuleena/
 
-![Screenshot 2021-10-13 09 38 27](https://user-images.githubusercontent.com/86656634/137038436-4fae5796-c1b7-41a7-a2d1-d1d26617c405.png)
 
+
+![Screenshot 2021-12-12 16 28 40](https://user-images.githubusercontent.com/86656634/145701579-59003cd5-1d40-458b-900b-5cc4b8604863.png)
